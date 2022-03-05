@@ -17,8 +17,9 @@ with open('/Users/julio.mendez/Downloads/de-learn01.csv') as csv_file:
         else:
             line_count += 1
             print(f"{row[0]} tiene {row[3]} años y nacio en {row[5]}")
-
+            #sumar las edades para obtener el total combinado de edades
             total_edades+=int(row[3])
+            
     print(f"el total de las edades:",total_edades)
 
 
